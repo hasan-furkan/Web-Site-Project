@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #42455a;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
+}
+.menu ul li {
+  display: inline-flex;
+  margin: 0 20px;
+  color: #b2b1b1;
+  cursor: pointer;
+  width: 50px;
+  padding: 5px 30px;
+}
+.menu ul li:hover {
+  background-color: #19d7f8;
+  border-radius: 50px;
+  color: #fd00da;
+}
+.logo img {
+  width: 30px;
+  margin-top: -7px;
+  margin-right: 48px;
+  color: #fff;
+}
+.active {
+  color: #19dafa !important;
+}
+.active:hover {
+  color: #fff !important;
+}
+.sign-up-btn {
+  top: 40px;
+  right: 80px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.sign-up-btn span {
+  display: block;
+  padding: 8px 22px;
+}
+.sign-up-btn span:hover {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+.banner {
+  width: 80%;
+  height: 70%;
+  top: 25%;
+  left: 130px;
+  position: absolute;
+}
+.app-text {
+  width: 50%;
+  float: left;
+}
+.app-text h1 {
+  font-size: 43px;
+  width: 640px;
+  position: relative;
+  margin-left: 40px;
+  color: #fff;
+}
+.app-text p {
+  width: 650px;
+  font-size: 15px;
+  margin: 30px 0 30px 40px;
+  line-height: 25px;
+  color: #919191;
+}
+.app-picture {
+  width: 50%;
+  float: right;
+}
+.app-picture img {
+  width: 100%;
+  margin-top: -20px;
+  padding-left: 50px;
+}
+.play-btn {
+  margin-left: 40px;
+  display: inline-flex;
+}
+.play-btn-inner {
+  height: 50px;
+  width: 50px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+}
+.play-btn-inner .fa {
+  padding: 18px 0;
+  font-size: 13px;
+  cursor: pointer;
+  color: #fff;
+}
+small {
+  margin: auto 20px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.qucik-links {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+.qucik-links ul {
+  display: inline-flex;
+  margin: 25px auto;
+  text-align: center;
+}
+.qucik-links ul li {
+  list-style: none;
+  margin: 0 50px;
+  cursor: pointer;
+}
+.qucik-links ul li .fa {
+  font-size: 25px;
+  color: #fff;
+}
+.qucik-links ul li .fab {
+  font-size: 25px;
+  color: #fff;
+}
+.qucik-links ul li .p {
+  margin-top: 15px;
+  font-size: 10px;
+  color: #fff;
+}
+.soical-icons {
+  right: 35px;
+  position: absolute;
+  font-size: 30px;
+}
+.soical-icons li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 5px;
+}
+.soical-icons li a .fab {
+  color: #fff;
+}
+.soical-icons li a .fa-facebook:hover {
+  color: antiquewhite;
+}
+.soical-icons li a .fa-instagram:hover {
+  color: blueviolet;
+}
+.soical-icons li a .fa-twitch:hover {
+  color: palevioletred;
+}
+.soical-icons li a .fa-twitter:hover {
+  color: aquamarine;
+}
+.soical-icons li a .fa-youtube:hover {
+  color: red;
+}
