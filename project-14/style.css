@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-color: grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(./bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.menu {
+  float: right;
+  display: inline-block;
+  margin: 40px 80px;
+}
+.menu ul {
+  font-size: 16px;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 25px;
+  padding: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  width: 25px;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+#active {
+  background-color: black;
+}
+.menu ul li a:hover,
+#active:hover {
+  background-color: #fff;
+  color: black;
+}
+.header {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  top: 20%;
+}
+.header h1,
+h2 {
+  color: #fff;
+  text-align: center;
+}
+.header h2 {
+  margin-top: 15px;
+}
+.buttons {
+  margin-top: 15px;
+}
+.buttons button {
+  padding: 15px 25px;
+  margin-left: 10px;
+  border-radius: 50px;
+  outline: none;
+  background-color: black;
+  width: 200px;
+  transition: 1s;
+}
+.buttons button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.buttons button:hover {
+  background-color: gray;
+  margin-top: 25px;
+}
+.login-register {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  top: 50%;
+  left: 40%;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+.login-register .label-login {
+  font-size: 24px;
+  font-family: serif;
+  margin-top: 5px;
+}
+.login-register .login {
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  border-radius: 50px;
+  outline: none;
+  margin-top: 5px;
+}
+.btn {
+  width: 250px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 50px;
+  font-size: 24px;
+  font-family: serif;
+}
+.btn:hover {
+  background-color: black;
+  color: #fff;
+}
+.social-icon {
+  position: absolute;
+  text-align: left;
+  margin: auto;
+  left: 90%;
+  top: 67%;
+  font-size: 35px;
+  padding: 15px;
+  height: auto;
+}
+.social-icon ul li {
+  list-style: none;
+  display: block;
+  margin-bottom: 15px;
+}
+.social-icon ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.instagram:hover {
+  border-radius: 30%;
+  padding: 15px;
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+.youtube:hover {
+  background: red;
+  border-radius: 30%;
+  padding: 15px;
+}
+.twitter:hover {
+  border-radius: 30%;
+  padding: 15px;
+  background: #5d91df;
+}
+.facebook:hover {
+  border-radius: 30%;
+  padding: 15px;
+  background: #4d11f3;
+}
+.social-icon a i {
+  transition: 1s all;
+}
+.social-icon a:hover > i {
+  transform: scale(1.5) rotate(360deg);
+}
+.content {
+  height: 100%;
+  width: 80px;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  position: absolute;
+  background-color: black;
+}
+.content li {
+  position: relative;
+  list-style: none;
+  margin-top: 60px;
+  padding: 5px;
+  text-align: center;
+}
+.content li a {
+  text-decoration: none;
+  color: #fff;
+}
+.content li a:hover {
+  color: aquamarine;
+}
