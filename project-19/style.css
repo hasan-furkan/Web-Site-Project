@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  height: auto;
+  background-color: #080c18;
+}
+nav {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.navbar-left img {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+}
+.navbar-right ul li {
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+}
+.navbar-right ul li a {
+  color: #fff;
+}
+.navbar-right ul li a:hover {
+  color: #d4a52b;
+  text-decoration: underline;
+}
+.active {
+  color: #d4a52b !important;
+  text-decoration: underline;
+}
+section {
+  width: 100%;
+  height: 92%;
+  display: flex;
+  background-color: #07080d;
+}
+.middle-left {
+  display: flex;
+  width: 60%;
+  justify-content: flex-start;
+  height: 100%;
+}
+.middle-left img {
+  height: auto;
+  width: auto;
+}
+
+.middle-right {
+  height: auto;
+  width: 20%;
+  margin-top: 5rem;
+  color: #fff;
+}
+.middle-right h1 {
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+.middle-right span {
+  color: #d4a52b;
+}
+.middle-right p {
+  margin-top: 2rem;
+}
+.middle-right button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #d4a52b;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.middle-right button:hover {
+  background-color: #fff;
+}
+
+.middle-right button a {
+  color: #080c18;
+}
+article {
+  width: 100%;
+  height: auto;
+}
+.top-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.top-image-left {
+  width: 40%;
+  height: 20rem;
+  margin: auto;
+  justify-content: center;
+  padding: 3rem;
+  color: #fff;
+}
+.top-image-left h2 {
+  margin-top: 2rem;
+}
+.top-image-left span {
+  color: #d4a52b;
+}
+.top-image-left p {
+  margin-top: 1rem;
+}
+.top-image-left button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #d4a52b;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.top-image-left button:hover {
+  background-color: #fff;
+}
+.top-image-left button a {
+  color: #080c18;
+}
+.top-image-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 20rem;
+}
+.center-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.center-image-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  height: 20rem;
+}
+.center-image-right {
+  color: #fff;
+  width: 40%;
+  margin: auto;
+  padding: 3rem;
+}
+.center-image-right h2 {
+  margin-top: 1rem;
+}
+.center-image-right span {
+  color: #d4a52b;
+}
+.center-image-right p {
+  margin-top: 1rem;
+}
+.center-image-right button {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #d4a52b;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.center-image-right button:hover {
+  background-color: #fff;
+}
+.center-image-right button a {
+  color: #080c18;
+}
+.bottom-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #07080d;
+}
+.bottom-image-left {
+  color: #fff;
+  width: 40%;
+  margin: auto;
+  padding: 3rem;
+}
+.bottom-image-left h2 {
+  margin-top: 0.5rem;
+}
+.bottom-image-left p {
+  margin-top: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.bottom-image-left .btn {
+  width: 100%;
+  height: 2rem;
+  padding: 0 1rem;
+  background-color: #ccc;
+  border: none;
+  outline: none;
+}
+.bottom-image-left button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: #d4a52b;
+  color: #080c18;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.bottom-image-left button:hover {
+  background-color: #fff;
+}
+.bottom-image-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 35rem;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #d4a52b;
+  display: flex;
+}
+.footer-left {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  padding: 3rem;
+}
+.footer-left h4 {
+  font-weight: 600;
+}
+.footer-left .social {
+  margin-top: 1rem;
+}
+.footer-left .social a {
+  color: #07080d;
+}
+.footer-left .social i:hover {
+  color: #373738;
+}
+.footer-center {
+  text-align: center;
+  width: 20%;
+  height: auto;
+  margin-right: 15rem;
+  padding: 3rem;
+}
+.footer-right {
+  text-align: center;
+  width: 20%;
+  height: auto;
+  padding: 3rem;
+}
