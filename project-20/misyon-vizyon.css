@@ -1,0 +1,8 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(./images/bg.jpg);
+  font-size: 1.5rem;
+  text-align: center;
+  color: #58eb98;
+  margin-top: 9rem;
+}

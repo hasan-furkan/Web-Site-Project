@@ -1,0 +1,40 @@
+body {
+  transition: 0.3s;
+}
+.kullanici {
+  width: 100%;
+}
+form {
+  width: 80%;
+  height: 38rem;
+  display: block;
+  border: 4px solid black;
+  margin: auto;
+}
+label,
+input {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+h3 {
+  margin-top: 2rem;
+  text-align: center;
+}
+.social {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.social a {
+  color: blue;
+  margin-left: 1rem;
+}
+.social a:hover {
+  color: #ccc;
+}
+form + .dark i {
+  font-size: 2rem;
+}
