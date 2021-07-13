@@ -1,2 +1,2 @@
-# Basic-web-site-project
-html, css and javascript projects that I have made by following or by myself
+# Web Site Project
+My projects that I have done since I stepped into the software world and where I use html, css, javascript, bootstrap.
