@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <div class="container">
+        <div class="middle-left">
+            <div class="contact-information">
+                <h3>Contact Information</h3>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email..."><i
+                    class="fas fa-envelope"></i>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone..."><i
+                    class="fas fa-phone-alt"></i>
+            </div>
+            <div class="shipping-address">
+                <h3>Shipping Address</h3>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Full name..."><i
+                    class="fas fa-user"></i>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" placeholder="Enter your address..."><i
+                    class="fas fa-home"></i>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" placeholder="Enter your city..."><i class="fas fa-city"></i>
+                <div class="country-post">
+                    <div class="country">
+                        <label for="country">Country</label>
+                        <select>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Germany">Germany</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">UK</option>
+                        </select><i class="fas fa-globe-europe"></i>
+                    </div>
+                    <div class="post-code">
+                        <label for="postCode">Post Code</label>
+                        <input type="tel" name="postCode" id="postCode" placeholder="Enter your postal code..."><i
+                            class="fas fa-mail-bulk"></i>
+                    </div>
+                </div><br>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">See this information next time</label> <br>
+                <div class="btn">
+                    <button type="submit">Continue</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="middle-right">
+            <div class="section">
+                <img src="./images/img1.png" alt="">
+                <label for="backbag">Vintage Backbag</label>
+                <p>$54.99 <del>$94.99</del>
+                </p>
+                <p>
+                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                </p>
+                <img src="./images/img2.png" alt="">
+                <label for="shoes">Levi Shoes</label>
+                <p>$74.99 <del>$124.99</del>
+                </p>
+                <p>
+                    <i class="fas fa-minus"></i> <span>1</span><i class="fas fa-plus"></i>
+                </p>
+            </div>
+            <div class="total">
+                <p><label>Shipping</label> <span>$19</span></p>
+                <p><label>Total</label> <span>$148.98</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

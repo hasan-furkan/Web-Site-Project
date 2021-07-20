@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(19, 18, 18);
+  font-family: "Poppins", sans-serif;
+}
+#container {
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 10%);
+  grid-template-rows: repeat(6, 35px);
+  grid-gap: 0.5rem;
+  justify-content: center;
+}
+.content,
+.mathOpt,
+.equal,
+.clean {
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.7;
+}
+.content:hover,
+.mathOpt:hover,
+.equal:hover,
+.clean:hover {
+  opacity: 1;
+  font-weight: 600;
+}
+.contentTopla,
+.contentCikar,
+.contentCarp,
+.contentBol,
+.contentEsit {
+  background-color: orange;
+}
+.content10 {
+  grid-row: 6;
+  grid-column: 1/3;
+  border-radius: 1rem;
+}
+.content1 {
+  grid-row: 5;
+  grid-column: 1;
+}
+.content2 {
+  grid-row: 5;
+  grid-column: 2;
+}
+.content3 {
+  grid-row: 5;
+  grid-column: 3;
+}
+.contentTopla {
+  grid-row: 5;
+  grid-column: 4;
+}
+.content4 {
+  grid-row: 4;
+  grid-column: 1;
+}
+.content5 {
+  grid-row: 4;
+  grid-column: 2;
+}
+.content6 {
+  grid-row: 4;
+  grid-column: 3;
+}
+.contentCikar {
+  grid-row: 4;
+  grid-column: 4;
+}
+.content7 {
+  grid-row: 3;
+  grid-column: 1;
+}
+.content8 {
+  grid-row: 3;
+  grid-column: 2;
+}
+.content9 {
+  grid-row: 3;
+  grid-column: 3;
+}
+.contentCarp {
+  grid-row: 3;
+  grid-column: 4;
+}
+.contentBol {
+  grid-row: 2;
+  grid-column: 4;
+}
+.contentEsit {
+  grid-row: 6;
+  grid-column: 4;
+}
+.contentNokta {
+  grid-row: 6;
+  grid-column: 3;
+}
+.clean {
+  grid-row: 2;
+  grid-column: 1/4;
+  background-color: #ddd;
+  border-radius: 2rem;
+}
+#display {
+  background-color: #1e1e1e;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-align: right;
+  grid-row: 1;
+  grid-column: 1/5;
+  color: #fff;
+  font-size: 2rem;
+}

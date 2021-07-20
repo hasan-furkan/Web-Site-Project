@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: #ddd;
+  height: 600px;
+  width: 60%;
+  margin: 8rem auto;
+  text-align: center;
+  padding: 9rem 0;
+}
+.header {
+  font-size: 3rem;
+}
+#text {
+  margin-top: 1rem;
+}
+input {
+  margin-top: 2rem;
+}
+#userInput {
+  width: 16rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 2px 2px 8px;
+  padding: 0 2rem;
+  font-size: 2rem;
+}
+#submit,
+#restart {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: #fff;
+}
+#submit:hover,
+#restart:hover {
+  background-color: #00ab;
+  color: #000;
+}
+#won + p {
+  margin-top: 1rem;
+  margin-left: -10rem;
+}
