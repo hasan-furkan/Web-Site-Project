@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="./images/1.jpg" alt="">
+            <img src="./images/2.jpg" alt="">
+            <img src="./images/3.jpg" alt="">
+            <img src="./images/4.jpg" alt="">
+            <img src="./images/5.jpg" alt="">
+            <img src="./images/6.jpg" alt="">
+            <img src="./images/7.jpg" alt="">
+            <img src="./images/8.jpg" alt="">
+            <img src="./images/9.jpg" alt="">
+            <img src="./images/10.jpg" alt="">
+            <img src="./images/11.jpg" alt="">
+            <img src="./images/12.jpg" alt="">
+        </div>
+        <div onclick="sideSlide(-1)" class="slide left">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+        <div onclick="sideSlide(1)" class="slide right">
+            <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="btm-sliders">
+            <span onclick="btmSlide(1)"></span>
+            <span onclick="btmSlide(2)"></span>
+            <span onclick="btmSlide(3)"></span>
+            <span onclick="btmSlide(4)"></span>
+            <span onclick="btmSlide(5)"></span>
+            <span onclick="btmSlide(6)"></span>
+            <span onclick="btmSlide(7)"></span>
+            <span onclick="btmSlide(8)"></span>
+            <span onclick="btmSlide(9)"></span>
+            <span onclick="btmSlide(10)"></span>
+            <span onclick="btmSlide(11)"></span>
+            <span onclick="btmSlide(12)"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
